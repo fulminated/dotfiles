@@ -1,0 +1,6 @@
+set show_hidden=True
+showhidden
+show hidden
+set show_hidden true
+wq
+

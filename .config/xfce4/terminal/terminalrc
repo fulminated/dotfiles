@@ -1,0 +1,26 @@
+[Configuration]
+FontName=Monaco for Powerline 10
+MiscAlwaysShowTabs=FALSE
+MiscBell=FALSE
+MiscBordersDefault=TRUE
+MiscCursorBlinks=FALSE
+MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
+MiscDefaultGeometry=80x24
+MiscInheritGeometry=FALSE
+MiscMenubarDefault=FALSE
+MiscMouseAutohide=FALSE
+MiscToolbarDefault=FALSE
+MiscConfirmClose=TRUE
+MiscCycleTabs=TRUE
+MiscTabCloseButtons=TRUE
+MiscTabCloseMiddleClick=TRUE
+MiscTabPosition=GTK_POS_TOP
+MiscHighlightUrls=TRUE
+MiscScrollAlternateScreen=TRUE
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
+ColorCursor=#e0e0e0e0e0e0
+ColorForeground=#e0e0e0e0e0e0
+ColorBackground=#2c2c3e3e5050
+ColorPalette=#2c2c3e3e5050;#e7e74c4c3c3c;#2e2ecccc7171;#f1f1c4c40f0f;#34349898dbdb;#9b9b5959b6b6;#1a1abcbc9c9c;#e0e0e0e0e0e0;#9595a5a5a6a6;#e7e74c4c3c3c;#2e2ecccc7171;#f1f1c4c40f0f;#34349898dbdb;#9b9b5959b6b6;#1a1abcbc9c9c;#ececf0f0f1f1
+FontAllowBold=FALSE
+
