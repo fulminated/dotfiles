@@ -1,0 +1,23 @@
+### Sidebar for Thunar and PCmanfm ##
+
+style "sidebar" 
+{
+	xthickness = 0	#For Thunar
+	ythickness = 0  #For Thunar
+
+	GtkWidget	:: focus-padding = 0 #Takes away space between Trash and Bookmarks
+	GtkWidget	:: focus_line_width = 1 #Adds spacing between icons and text
+	GtkTreeView	:: horizontal_separator	= 12 #Padding to the left
+	GtkTreeView	:: vertical_separator = 2 #Padding between each place
+	GtkTreeView	:: image-spacing = 6
+	
+	GtkTreeView	:: even-row-color = "#1a1a1a" #This is the color for the sidebar		
+}
+
+class		 "*ThunarTreeView"			style		"sidebar"
+widget_class	"*FmPlacesView*"		style 		"sidebar"
+widget_class	"*FmDirTreeView"			style 		"sidebar"
+
+widget_class "*<ThunarShortcutsPane>*<ThunarShortcutsView>"  style  "sidebar"
+
+

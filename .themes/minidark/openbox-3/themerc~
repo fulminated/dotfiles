@@ -1,0 +1,135 @@
+!! OpenRoyal by ms_art
+
+!!---------------------------------------------------------------------------
+!! Dimensions
+
+border.width:				0
+border.color:				#000000
+
+padding.width:				1
+window.handle.width:			1
+window.client.padding.width:		0
+window.client.padding.height:		0
+
+menu.overlap:				-5
+menu.border.width:                       5
+
+!!---------------------------------------------------------------------------
+!! Fonts
+
+window.active.label.text.font:		shadow=y
+window.label.text.justify:		right
+
+menu.title.text.font:			shadow=y
+menu.title.text.justify:		center
+
+menu.items.font:			
+
+!!---------------------------------------------------------------------------
+!! Menu Settings
+
+menu.title.bg:				flat solid
+menu.title.bg.color:			#0b0b0b
+menu.title.bg.colorTo:			#0b0b0b
+menu.title.text.color:			#ffffff
+
+menu.items.bg:				flat solid
+menu.items.bg.color:			#000000
+menu.items.text.color:			#ffffff
+
+menu.items.active.bg:			flat solid
+menu.items.active.bg.color:		#000000
+menu.items.active.text.color:		#FED053
+
+menu.items.disabled.text.color:		#0B0B0B
+
+menu.separator.color:                   #5A4E15
+menu.separator.width: 1
+menu.separator.padding.width: 3
+menu.separator.padding.height: 3
+
+menu.border.color:                      #000000
+
+!!---------------------------------------------------------------------------
+!! Window Settings
+
+window.active.padding.width:		10
+window.active.title.bg:			flat solid
+window.active.title.bg.color:		#000000
+
+window.active.label.bg:			flat solid
+window.active.label.bg.color:		#000000
+window.active.label.bg.colorTo:		#000000
+window.active.label.text.color:		#fed053
+
+window.active.handle.bg:		flat solid
+window.active.handle.bg.color:		#000000
+window.active.handle.bg.colorTo:	#000000
+
+window.active.grip.bg:			flat solid
+window.active.grip.bg.color:		#000000
+
+window.active.client.color: #000000
+window.inactive.client.color: #000000
+
+window.inactive.title.bg:		flat solid
+window.inactive.title.bg.color:		#000000
+
+window.inactive.label.bg:		parentrelative
+window.inactive.label.text.color:	#000000
+
+window.inactive.handle.bg:		flat solid
+window.inactive.handle.bg.color:	#000000
+
+window.inactive.grip.bg:		flat solid
+window.inactive.grip.bg.color:		#000000
+
+!!---------------------------------------------------------------------------
+!! Button Settings
+
+window.active.button.unpressed.bg:			flat solid
+window.active.button.unpressed.bg.color:		#000000
+window.active.button.unpressed.bg.colorTo:		#000000
+window.active.button.unpressed.image.color:		#fed053
+
+window.active.button.pressed.bg:			flat solid
+window.active.button.pressed.bg.color:			#000000
+window.active.button.pressed.bg.colorTo:			#000000
+
+window.active.button.hover.bg:			flat solid
+window.active.button.hover.bg.color:			#000000
+
+window.active.button.disabled.bg:			parentrelative
+window.active.button.disabled.image.color:		#fed053
+
+!! without this it looks right
+!!window.active.button.toggled.bg:			flat solid
+!!window.active.button.toggled.bg.color:			#000000
+
+window.inactive.button.unpressed.bg:			parentrelative
+window.inactive.button.unpressed.image.color:		#000000
+
+window.inactive.button.hover.bg:			flat solid
+window.inactive.button.hover.bg.color:			#000000
+window.inactive.button.hover.image.color:               #fed053
+window.inactive.button.pressed.bg:			flat solid
+window.inactive.button.pressed.bg.color:		#000000
+window.inactive.button.pressed.bg.colorTo:		#000000
+window.inactive.button.pressed.image.color:             #fed053
+
+window.inactive.button.disabled.bg:			parentrelative
+window.inactive.button.disabled.image.color:		#000000
+
+!! window.inactive.button.toggled.bg:			flat solid
+!! window.inactive.button.toggled.bg.color:		#000000
+
+osd.border.width: 1
+osd.border.color:  #fed053
+
+osd.bg: flat solid
+osd.bg.color: #000000
+osd.bg.border.color: #000000
+
+osd.label.bg: parentrelative
+
+osd.label.text.color: #fed053

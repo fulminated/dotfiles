@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Flattastic-Blue-Light
+Comment=A modern flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Flattastic-Blue-Light
+MetacityTheme=Flattastic-Blue-Light
+ButtonLayout=:minimize,maximize,close
+IconTheme=gnome

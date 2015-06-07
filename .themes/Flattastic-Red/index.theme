@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Flattastic-Red
+Comment=A modern flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Flattastic-Red
+MetacityTheme=Flattastic-Red
+ButtonLayout=:minimize,maximize,close
+IconTheme=gnome

@@ -1,0 +1,86 @@
+UnityDecoration {
+    -UnityDecoration-extents: 28px 0 0 0;
+    -UnityDecoration-input-extents: 10px;
+
+    -UnityDecoration-shadow-offset-x: 1px;
+    -UnityDecoration-shadow-offset-y: 5px;
+    -UnityDecoration-active-shadow-color: rgba (0, 0, 0, 0.75);
+    -UnityDecoration-active-shadow-radius: 30px;
+    -UnityDecoration-inactive-shadow-color: rgba (0, 0, 0, 0.3);
+    -UnityDecoration-inactive-shadow-radius: 25px;
+
+    -UnityDecoration-glow-size: 10px;
+    -UnityDecoration-glow-color: rgb (221, 72, 20);
+
+    -UnityDecoration-title-indent: 10px;
+    -UnityDecoration-title-fade: 35px;
+    -UnityDecoration-title-alignment: 0.0;
+}
+
+UnityDecoration.top {
+    border-radius: 4px 4px 0 0;
+    box-shadow: inset 5px 5px shade (@dark_bg_color, 1.6);
+    background-color: @bg_color;
+    color: @text_color;
+}
+
+UnityDecoration.top:backdrop {
+
+}
+
+UnityDecoration.left,
+UnityDecoration.right {
+
+}
+
+UnityDecoration.left:backdrop,
+UnityDecoration.right:backdrop {
+
+}
+
+UnityDecoration.bottom {
+
+}
+
+/* Panel Style */
+
+UnityPanelWidget,
+.unity-panel {
+    border-width: 0;
+    border-style: none;
+    background-color: @osd_bg;
+    background-image: none;
+    color: #ffffff;
+}
+
+UnityPanelWidget:backdrop,
+.unity-panel:backdrop {
+    color: @base_color;
+}
+
+.unity-panel.menubar,
+.unity-panel .menubar {
+    color: @theme_text_dark_color;
+    text-shadow: @theme_shadow_dark_color;
+}
+
+.unity-panel.menuitem,
+.unity-panel .menuitem {
+
+}
+
+.unity-panel.menubar:backdrop,
+.unity-panel .menubar *:backdrop {
+
+}
+.unity-panel.menubar.menuitem,
+.unity-panel.menubar .menuitem * {
+    color: @base_color;
+    border-width: 0;
+    border-style: none;
+    background-color: @osd_fg;
+}
+.unity-panel.menubar.menuitem:hover,
+.unity-panel.menubar .menuitem *:hover {
+
+}

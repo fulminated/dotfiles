@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Pseudo-Numix-Black-Edition
+Comment=Just modern, flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Pseudo-Numix-Black-Edition
+MetacityTheme=Pseudo-Numix-Black-Edition
+ButtonLayout=:minimize,maximize,close

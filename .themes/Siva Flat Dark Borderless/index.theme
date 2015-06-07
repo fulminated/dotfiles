@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Siva Flat Dark Borderless
+Comment=Low contrast and simple light theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Siva Flat Dark Borderless
+MetacityTheme=Siva Flat Dark Borderless
+ButtonLayout=:minimize,maximize,close

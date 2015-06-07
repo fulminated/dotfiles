@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Siva Flat Round
+Comment=Low contrast and simple light theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Siva Flat Round
+MetacityTheme=Siva Flat Round
+ButtonLayout=:minimize,maximize,close

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Flattastic-Green
+Comment=A modern flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Flattastic-Green
+MetacityTheme=Flattastic-Green
+ButtonLayout=:minimize,maximize,close
+IconTheme=gnome

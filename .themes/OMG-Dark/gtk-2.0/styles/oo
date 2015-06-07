@@ -1,0 +1,12 @@
+style "oo"
+{
+    base[NORMAL]       	 = "#0d0d0d"
+    text[NORMAL]         = "#aaaaaa"
+}
+widget "GtkWindow"       style  "oo"
+style "ff"
+{
+    text[NORMAL]         = "#aaaaaa"
+}
+class "GtkInvisible"	style "ff"
+widget "GtkInvisible"	style "ff"

@@ -1,0 +1,133 @@
+theme
+	name Turquoise Nights
+	author na12
+
+panel
+	position bottom
+	background tile.png
+		
+empty 3
+
+desktop_switcher
+	idle
+		left_corner empty.png
+		left empty.png
+		center empty.png
+		right empty.png
+		right_corner empty.png
+		font DejaVu Sans condensed bold 9
+			color 150 150 150
+			offset 0 0
+			align center
+		
+	pressed
+		left_corner empty.png
+		left empty.png
+		center empty.png
+		right empty.png
+		right_corner empty.png
+		font DejaVu Sans condensed bold 9
+			color 0 255 255
+			offset 0 0
+			shadow_offset 1 1
+			shadow_color 0 0 0
+			align center
+
+pager
+	idle
+		border 0 0 0
+		fill 55 55 55
+		inactive_window_border 89 89 89
+		inactive_window_fill 18 18 18
+		active_window_border 89 89 89
+		active_window_fill 18 18 18
+		font DejaVu Sans 8
+			color 247 247 247
+			offset -2 3
+			align right
+			shadow_offset 1 1
+			shadow_color 0 0 0
+
+	pressed
+		border 15 15 15
+		fill 66 83 34
+		inactive_window_border 160 160 160
+		inactive_window_fill 43 43 43
+		active_window_border 204 235 143
+		active_window_fill 130 160 74
+
+	height 18
+	desktop_spacing 3
+
+launchbar
+	icon_size 20 20
+	
+empty 5
+
+taskbar
+	idle
+		left tb-lr-idle.png
+		center empty.png
+		right tb-lr-idle.png
+		font DejaVu Sans condensed 8
+			color 247 247 247
+			offset 5 0
+			shadow_offset 1 1
+			shadow_color 0 0 0
+		icon_offset 2 0 
+
+	idle_highlight
+		left tb-left-hover.png
+		center tb-tile-hover.png
+		right tb-right-hover.png
+		font DejaVu Sans condensed 8
+			color 255 255 255
+			offset 5 0
+			shadow_offset 0 0
+			shadow_color 0 0 0
+		icon_offset -2 0
+	
+	pressed
+		left tb-left-active.png
+		center tb-tile-active.png
+		right tb-right-active.png
+		font DejaVu Sans condensed 8
+			color 247 247 247
+			offset 5 0
+			shadow_offset 1 1
+			shadow_color 0 0 0
+		icon_offset -2 0
+		
+	pressed_highlight
+		left tb-left-active-hover.png
+		center tb-tile-active-hover.png
+		right tb-right-active-hover.png
+		font DejaVu Sans condensed 8
+			color 247 247 247
+			offset 5 0
+			shadow_offset 1 1
+			shadow_color 0 0 0
+		icon_offset -2 0
+
+	task_max_width 200
+	default_icon default_icon.png
+
+empty 7
+
+systray
+	icon_size 20 20
+	icon_spacing 2
+
+empty 3
+
+clock	
+	font DejaVu Sans condensed bold 9
+		color 247 247 247
+		offset 0 0
+		shadow_offset 1 1
+		shadow_color 0 0 0
+		align center
+
+	time_format %H:%M
+
+empty 3

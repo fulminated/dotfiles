@@ -1,0 +1,65 @@
+/* http://nale12.deviantart.com/ */
+
+@define-color base_color #535353;
+@define-color text_color #dddddd;
+@define-color bg_color #202020;
+@define-color fg_color #aaaaaa;
+@define-color selected_bg_color #334657;
+@define-color selected_fg_color #dddddd;
+@define-color tooltip_bg_color #4C7B9D;
+@define-color tooltip_fg_color #000000;
+@define-color theme_base_color @base_color;
+@define-color theme_text_color @text_color;
+@define-color theme_bg_color @bg_color;
+@define-color theme_fg_color @fg_color;
+@define-color theme_selected_bg_color @selected_bg_color;
+@define-color theme_selected_fg_color @selected_fg_color;
+@define-color theme_tooltip_bg_color @tooltip_bg_color;
+@define-color theme_tooltip_fg_color @tooltip_fg_color;
+@define-color theme_light_color #909090;
+@define-color theme_lighter_color #999999;
+@define-color theme_dark_color #0D0D0D;
+@define-color theme_darker_color #000000;
+@define-color button_gradient_color_a #404040;
+@define-color button_gradient_color_b #1f1f1f;
+@define-color transparent rgba (0, 0, 0, 0);
+@define-color button_hover_gradient_color_a #334657;
+@define-color button_hover_gradient_color_b shade (@theme_selected_bg_color, 0.50);
+@define-color levelbar_color #326895;
+@define-color progressbar_background_a #334657;
+@define-color progressbar_background_b shade (@theme_selected_bg_color, 0.52);
+@define-color progressbar_pattern #000000;
+@define-color button_insensitive_color #777777;
+@define-color insensitive_color #555555;
+@define-color menubar_bg_a #212121;
+@define-color menubar_bg_b #1D1D1D;
+@define-color menubar_border_bottom #090909;
+@define-color notebook_color #232323;
+@define-color tab_color #1E1E1E;
+@define-color notebook_tab_gradient_a @button_gradient_color_a;
+@define-color notebook_tab_gradient_b @button_gradient_color_b;
+@define-color toolbar_border_top #2F2F2F;
+@define-color toolbar_bg_a #1d1d1d;
+@define-color toolbar_bg_b #151515;
+@define-color toolbar_button_gradient_color_a #393939;
+@define-color toolbar_button_gradient_color_b #181818;
+@define-color toolbar_button_hover_gradient_color_a shade (@theme_selected_bg_color, 0.72);
+@define-color toolbar_button_hover_gradient_color_b shade (@theme_selected_bg_color, 0.33);
+@define-color active_color #4C94AF;
+
+@define-color link_color #005E81;
+@define-color warning_color #DC8128;
+@define-color error_color #D74545;
+@define-color success_color #567637;
+
+@define-color info_fg_color rgb (208, 208, 42);
+@define-color info_bg_color rgb (136, 136, 0);
+@define-color warning_fg_color rgb (255, 164, 75);
+@define-color warning_bg_color rgb (119, 64, 9);
+@define-color question_fg_color rgb (92, 58, 255);
+@define-color question_bg_color rgb (55, 38, 130);
+@define-color error_fg_color rgb (255, 81, 81);
+@define-color error_bg_color rgb (113, 0, 0);
+
+@import url("gtk-widgets.css");
+@import url("unity.css");

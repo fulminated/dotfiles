@@ -1,0 +1,11 @@
+/* XPM */
+static char * left_inactive_xpm[] = {
+"3 5 3 1",
+" 	c None",
+".	c #E1E2E3",
+"+	c #E2E2E3",
+".++",
+".++",
+".++",
+".++",
+".++"};

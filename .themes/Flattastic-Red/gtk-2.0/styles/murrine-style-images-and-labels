@@ -1,0 +1,65 @@
+style "murrinestyle"
+{
+#remove the ugly stipple effect that the pixmap engine causes
+#remove the ugly distortion that the pixmap engine causes on disabled text
+	engine "murrine" {}
+}
+
+class "GtkImage" style "murrinestyle"
+class "GtkLabel" style "murrinestyle"
+class "GtkComboBox" style "murrinestyle"
+class "GtkCellView" style "murrinestyle"
+widget_class "*.<GtkButton>.<GtkLabel>" style "murrinestyle"
+widget_class "*.<GtkComboBox>.<GtkCellView>" style "murrinestyle"
+widget_class "*<GtkImage>*" style "murrinestyle"
+widget_class "*.<GtkLabel>" style:highest "murrinestyle"
+widget_class "*.<GtkMenuItem>.*" style:highest "murrinestyle"
+widget_class	"*<GtkMenuBar>*<GtkLabel>*" style:highest "murrinestyle"
+widget_class "*CPUFreqApplet*" style:highest "murrinestyle"
+widget_class	"*<GtkToolbar>*<GtkButton>*<GtkLabel>*" style:highest "murrinestyle"
+widget_class	"*<GtkToolbar>*<GtkLabel>*" style:highest "murrinestyle"
+widget_class	"*<GtkButton>*<GtkLabel>*" style:highest "murrinestyle"
+style "text"
+{
+
+	engine "murrine" {
+textstyle = 1
+text_shade = 0.7
+}
+}
+widget_class "*<GtkButton>*<GtkLabel>*"		style "text"
+
+style "notext"
+{
+
+	engine "murrine" {
+textstyle = 0
+}
+}
+widget_class "*<GtkCheckButton>*<GtkLabel>*"		style "notext"
+widget_class "*<GtkRadioButton>*<GtkLabel>*"		style "notext"
+widget_class "*<GtkLinkButton>*<GtkLabel>*"		style "notext"
+widget_class "*Panel*<GtkButton>*<GtkLabel>*"		style "notext"
+widget_class "*Chrom*Button*Label*"		             style "notext"
+widget_class "*FmSidePane*Button*Label*"  style "notext"
+widget_class	"*<GtkToolbar>*<GtkButton>*<GtkLabel>*" style "notext"
+style "chromebutton" 
+{
+
+	fg[NORMAL] = @fg_color
+	fg[PRELIGHT] = @selected_fg_color
+	fg[SELECTED] = @selected_fg_color
+	fg[ACTIVE] = @selected_fg_color
+	fg[INSENSITIVE] = shade (0.7, @selected_fg_color)
+}
+widget_class "*Chrom*Button*Label*"  style "chromebutton"
+style "fm" 
+{
+
+	fg[NORMAL] = @fg_color
+	fg[PRELIGHT] = @selected_fg_color
+	fg[SELECTED] = @selected_fg_color
+	fg[ACTIVE] = @fg_color
+	fg[INSENSITIVE] = shade (0.7, @selected_fg_color)
+}
+widget_class "*FmSidePane*Button*Label*"  style "fm"

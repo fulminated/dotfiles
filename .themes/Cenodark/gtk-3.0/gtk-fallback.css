@@ -1,0 +1,7 @@
+.menu {
+    border-color: alpha(@borders, 0.50);
+}
+
+.menubar .menu {
+    border-color: alpha(@borders, 0.50);
+}

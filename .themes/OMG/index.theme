@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=OMG
+Type=X-GNOME-Metatheme
+Comment=There is only one
+Encoding=UTF-8
+GtkTheme=OMG
+MetacityTheme=OMG
+IconTheme=Faenza-Blue-Dark2
+CursorTheme=Shere_Khan_X
+CursorSize=24

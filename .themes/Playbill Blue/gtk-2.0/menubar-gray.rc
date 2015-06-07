@@ -1,0 +1,60 @@
+#################### MENUBAR ###################
+
+
+style "menubar"		
+{
+  fg[NORMAL] = "#717171"
+  text[NORMAL] = "#ffffff"
+  fg[PRELIGHT] = "#717171"
+  fg[ACTIVE] = "#717171"
+  fg[INSENSITIVE] = "#555555"
+  text[PRELIGHT] = "#000000"
+
+xthickness			= 2
+ythickness			= 1
+	engine "pixmap"
+	{
+	image
+	{
+		function	= BOX
+		state		= NORMAL
+		file		= "Menu-Menubar/menubar-gray.png"
+		border		= { 0 , 0 , 0 , 0}
+		stretch		= FALSE
+	}
+
+	
+	image
+	{
+		function	= BOX
+		state		= ACTIVE
+		file		= "Menu-Menubar/menubar-gray.png"
+		border		= { 0 , 0 , 0 , 0}
+		stretch		= FALSE
+	}
+
+	
+	image
+	{
+		function	= BOX
+		state		= INSENSITIVE
+		file		= "Menu-Menubar/menubar-gray.png"
+		border		= { 0 , 0 , 0 , 0}
+		stretch		= FALSE
+	}
+
+
+  image
+    {
+      function			= BOX
+      recolorable		= TRUE
+			state = PRELIGHT
+     file				= "Menu-Menubar/menubar-item.png"
+
+      border			= { 10, 10, 10, 10 }
+      stretch			= TRUE
+    }
+
+ 	}
+}
+

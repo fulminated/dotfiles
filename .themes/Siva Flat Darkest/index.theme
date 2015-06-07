@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Siva Flat Darkest
+Comment=Low contrast and simple light theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Siva Flat Darkest
+MetacityTheme=Siva Flat Darkest
+ButtonLayout=:minimize,maximize,close
