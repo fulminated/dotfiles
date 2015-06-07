@@ -7,3 +7,7 @@
 * vim
 * ranger - a command line file manager
 * weechat
+----------------------------------------
+**<h3>Screenshots</h3>
+
+https://i.imgur.com/7jfcuQX.jpg
