@@ -1,5 +1,5 @@
-#dotfiles
-These are my configurations files, and colorschemes I use.
+<h2>dotfiles<h2> 
+------------------------------
 **<h3>Requirements</h3>**
 
 * i3 windows manager
@@ -7,3 +7,6 @@ These are my configurations files, and colorschemes I use.
 * vim
 * ranger - a command line file manager
 * weechat
+
+-----------------------------
+<h3> Screenshots <h3>
