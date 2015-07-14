@@ -13,41 +13,42 @@ URxvt.keysym.M-Escape:      perl:keyboard-select:activate
 URxvt.keysym.M-s:           perl:keyboard-select:search
 
 ! special
-*.foreground:   #eaeaea
-*.background:   #000000
-*.cursorColor:  #eaeaea
+*.foreground:   #e0e0e0
+*.background:   #2c3e50
+*.cursorColor:  #e0e0e0
 
 ! black
-*.color0:       #2a2a2a
-*.color8:       #666666
+*.color0:       #2c3e50
+*.color8:       #95a5a6
 
 ! red
-*.color1:       #d54e53
-*.color9:       #ff3334
+*.color1:       #e74c3c
+*.color9:       #e67e22
 
 ! green
-*.color2:       #b9ca4a
-*.color10:      #9ec400
+*.color2:       #2ecc71
+*.color10:      #34495e
 
 ! yellow
-*.color3:       #e78c45
-*.color11:      #e7c547
+*.color3:       #f1c40f
+*.color11:      #7f8c8d
 
 ! blue
-*.color4:       #7aa6da
-*.color12:      #7aa6da
+*.color4:       #3498db
+*.color12:      #bdc3c7
 
 ! magenta
-*.color5:       #c397d8
-*.color13:      #b777e0
+*.color5:       #9b59b6
+*.color13:      #f5f5f5
 
 ! cyan
-*.color6:       #70c0b1
-*.color14:      #54ced6
+*.color6:       #1abc9c
+*.color14:      #be643c
 
 ! white
-*.color7:       #424242
-*.color15:      #cac4c4
+*.color7:       #e0e0e0
+*.color15:      #ecf0f1
+
 
 
 ntialias: true
